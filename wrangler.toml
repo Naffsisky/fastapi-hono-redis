@@ -1,0 +1,7 @@
+name = "fastapi"
+compatibility = "2024-05-11"
+
+[vars]
+UPSTASH_REDIS_REST_TOKEN = AYWiASQgODUxMzIzZDItNDQ0Yi00OWI3LTk4YzgtNGJlY2Q0NmRjMGM2N2MyNTM2NjIxYmFjNDA1NjkxOTBlOGE0Yzk1YTcwYTc=
+
+UPSTASH_REDIS_REST_URL = https://usw1-relieved-hedgehog-34210.upstash.io
