@@ -29,7 +29,8 @@ export default function Home() {
   return (
     <main className="h-screen w-screen grainy relative">
       <div className="flex flex-col gap-6 items-center pt-32 duration-500 animate-in animate fade-in-5 slide-in-from-bottom-3">
-        <h1 className="text-5xl tracking-tight font-bold">Speed Search ⚡️</h1>
+        <h1 className="text-5xl tracking-tight font-bold text-orange-400 pb-16">Speed Search</h1>
+        <Image src="/images/hono.png" alt="Hono logo" width={200} height={60} />
         <p className="text-zinc-600 text-lg max-w-prose text-center">
           A high-performance API build with Hono, Next.js and Cloudflare
           <br />
@@ -64,14 +65,14 @@ export default function Home() {
       <div className="absolute bottom-0 left-0 right-0 max-w-md mx-auto w-full px-5">
         <>
           <CardHeader>
-            <CardTitle className="text-center text-lg">Tech Tools 🛠️</CardTitle>
+            <CardTitle className="text-center text-3xl">Tech Tools 🛠️</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="flex flex-wrap justify-center">
-              <Image src="/icons/redis.ico" alt="Redis logo" width={60} height={60} className="m-2" />
-              <Image src="/next.svg" alt="Redis logo" width={60} height={60} className="m-2" />
-              <Image src="/icons/cloudflare.svg" alt="Redis logo" width={60} height={60} className="m-2" />
-              <Image src="/icons/tailwind.svg" alt="Redis logo" width={60} height={60} className="m-2" />
+              <Image src="/icons/redis.ico" alt="Redis logo" width={60} height={60} className="m-3" />
+              <Image src="/next.svg" alt="Next logo" width={60} height={60} className="m-3" />
+              <Image src="/icons/cloudflare.svg" alt="Cloudflare logo" width={60} height={60} className="m-3" />
+              <Image src="/icons/tailwind.svg" alt="Tailwind logo" width={60} height={60} className="m-3" />
             </div>
           </CardContent>
         </>
